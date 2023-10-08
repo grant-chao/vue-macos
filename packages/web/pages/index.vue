@@ -1,9 +1,9 @@
 <template>
     <div>
-        <VMButton>按钮</VMButton>
+        <Button>按钮</Button>
     </div>
 </template>
 
 <script setup lang="ts">
-import VMButton from '../../core/src/components/Button.vue';
+import { Button } from '@vue-macos/core';
 </script>
